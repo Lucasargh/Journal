@@ -1,6 +1,6 @@
 require 'sinatra'
-
+require 'activerecord'
 
 get '/' do
-	'Hello World'
+	erb views/index.html
 end
